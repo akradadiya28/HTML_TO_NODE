@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@tailwind base;
+@tailwind components;
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+.header-fix {
+  background-color: #121316;
+  position: fixed !important;
+  z-index: 999 !important;
+  width: 100% !important;
+  transition: all 0.5s;
+}
+@tailwind utilities;

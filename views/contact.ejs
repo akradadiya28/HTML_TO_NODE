@@ -1,0 +1,209 @@
+<%- include('./common/head.ejs')%>
+    <%- include('./common/header.ejs')%>
+
+        <main>
+            <!-- breadcrumb -->
+            <section
+                class="breadcrumb z-20 relative py-36 after:content-[''] after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-50 after:-z-20"
+                style="background-image: url(./dist/images/breadcrumb-bg.webp);">
+                <img src="" alt="">
+                <img src="./dist/images/breadcrunb__shape.png" alt="placeholder"
+                    class="absolute bottom-0 left-0 lg:w-[12.5%] w-[20%] z-[1px]">
+                <img src="./dist/images/bird-illustration-w.png" alt="placeholder"
+                    class="absolute top-[10%] right-[4%] z-1 w-[7.5%]">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="flex text-2xl font-cursive">
+                            <li class="pr-2">
+                                <a href="index.html" class="text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-[#ffffffb3] px-3 text-2xl">Contact Us</a>
+                            </li>
+                        </ol>
+                    </nav>
+                    <h2 class="text-white text-[54px] mt-2 font-medium font-serif">A Feel Free to Contact <br> with us
+                    </h2>
+                </div>
+            </section>
+            <!-- social -->
+            <section class="social pt-[120px] relative">
+                <div class="absolute top-1/2 -translate-y-1/2 right-0 max-w-[14%] -z-[1] lg:inline-block">
+                    <img src="./dist/images/tree-illustration.png" alt="leaf">
+                </div>
+                <div class="absolute top-[5%] left-[1%] max-w-[9%]">
+                    <img src="./dist/images/bird-illustration.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+                        <div class="bg-white lg:py-8 py-7 px-[30px]">
+                            <div class="flex">
+                                <div class="mr-[15px] shrink-0 lg:text-3xl text-2xl text-[#219FFF]">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="lg:text-xl font-serif font-semibold">Email Us</h4>
+                                    <ul class="text-[#5b5b5b] space-y-1 text-base font-medium mt-2">
+                                        <li><a href="mailto:info@supportcompany.com"
+                                                class="hover:text-primary-1 duration-200 hover:text-color-primary transition-all">info@supportcompany.com</a>
+                                        </li>
+                                        <li><a href="mailto:info@exmple.com"
+                                                class="hover:text-primary-1 duration-200 hover:text-color-primary transition-all">info@exmple.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white lg:py-8 py-7 px-[30px]">
+                            <div class="flex">
+                                <div class="mr-[15px] shrink-0 lg:text-3xl text-2xl text-[#17BD8D]">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="lg:text-xl font-serif font-semibold">Call us</h4>
+                                    <ul class="text-[#5b5b5b] space-y-1 text-base font-medium mt-2">
+                                        <li><a href="mailto:info@supportcompany.com"
+                                                class="hover:text-primary-1 duration-200 hover:text-color-primary transition-all">+7704345017</a>
+                                        </li>
+                                        <li><a href="mailto:info@exmple.com"
+                                                class="hover:text-primary-1 duration-200 hover:text-color-primary transition-all">+866-398-5917</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white lg:py-8 py-7 px-[30px]">
+                            <div class="flex">
+                                <div class="mr-[15px] shrink-0 lg:text-3xl text-2xl text-[#F53D6B]">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h4 class="lg:text-xl font-serif font-semibold">Location</h4>
+                                    <ul class="text-[#5b5b5b] space-y-1 text-base font-medium mt-2">
+                                        <li>
+                                            <a href="mailto:info@supportcompany.com"
+                                                class="hover:text-primary-1 duration-200 hover:text-color-primary transition-all">4517
+                                                Washington Ave. Manchester,
+                                                Kentucky 39495
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Get in touch -->
+            <section class="fet-in-touch pt-[120px] relative">
+                <div class="container">
+                    <div class="heading text-center pb-[40px]">
+                        <h5 class="text-2xl font-cursive text-color-primary">Get in Touch</h5>
+                        <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">Feel Free to Contact with
+                            us
+                        </h2>
+                    </div>
+                    <form action="#">
+                        <div class="grid grid-cols-2 gap-4 px-[120px]">
+                            <div class="lg:col-span-1 col-span-2">
+                                <input type="text" placeholder="Your Name"
+                                    class="w-full border bg-transparent outline-none focus:border-color-primary transition-all duration-100 focus:text-white border-[#ebebeb] py-2 px-5 placeholder:text-[#ebebeb]">
+                            </div>
+                            <div class="lg:col-span-1 col-span-2">
+                                <input type="text" placeholder="Your Phone Number"
+                                    class="w-full border bg-transparent outline-none focus:border-color-primary transition-all duration-100 focus:text-white border-[#ebebeb] py-2 px-5 placeholder:text-[#ebebeb]">
+                            </div>
+                            <div class="col-span-2">
+                                <input type="email" placeholder="Your Subject"
+                                    class="w-full border bg-transparent outline-none focus:border-color-primary transition-all duration-100 focus:text-white border-[#ebebeb] py-2 px-5 placeholder:text-[#ebebeb]">
+                            </div>
+                            <div class="col-span-2">
+                                <textarea cols="30" rows="6"
+                                    class="w-full border bg-transparent outline-none focus:border-color-primary transition-all duration-100 focus:text-white border-[#ebebeb] py-2 px-5 placeholder:text-[#ebebeb]"
+                                    placeholder="Your Subject..."></textarea>
+                            </div>
+                            <div class="col-span-2">
+                                <div
+                                    class="btn bg-color-primary py-4 px-10 hover:bg-[#d0aa6c] transition-all duration-300 inline-block">
+                                    <a href="#" class="text-white flex items-center justify-center">
+                                        Find Out More
+                                        <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                                stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- blog & news -->
+            <section class="blog pt-[120px]">
+                <%- include('./common/news.ejs')%>
+            </section>
+        </main>
+        <%- include('./common/footer.ejs')%>
+            <!-- jquery -->
+            <script src="dist/js/jquery-3.7.1.min.js"></script>
+            <script src="dist/js/script.js"></script>
+            <!-- fancybox js -->
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+            <!-- swiper js -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+            <script>
+                var swiper = new Swiper(".mySwiper1", {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                    freeMode: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+            <script>
+                var swiper = new Swiper(".mySwiper2", {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    freeMode: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+
+            </body>
+
+            </html>

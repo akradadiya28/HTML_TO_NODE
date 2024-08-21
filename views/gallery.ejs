@@ -1,0 +1,116 @@
+<%- include('./common/head.ejs')%>
+  <%- include('./common/header.ejs')%>
+
+    <main>
+      <!-- breadcrumb -->
+      <section
+        class="breadcrumb z-20 relative py-36 after:content-[''] after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-50 after:-z-20"
+        style="background-image: url(./dist/images/breadcrumb-bg.webp);">
+        <img src="" alt="">
+        <img src="./dist/images/breadcrunb__shape.png" alt="placeholder"
+          class="absolute bottom-0 left-0 lg:w-[12.5%] w-[20%] z-[1px]">
+        <img src="./dist/images/bird-illustration-w.png" alt="placeholder"
+          class="absolute top-[10%] right-[4%] z-1 w-[7.5%]">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="flex text-2xl font-cursive">
+              <li class="pr-2">
+                <a href="index.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-[#ffffffb3] px-3 text-2xl">Gallery</a>
+              </li>
+            </ol>
+          </nav>
+          <h2 class="text-white text-[54px] mt-2 font-medium font-serif">A Image and Video <br> Gallery
+          </h2>
+        </div>
+      </section>
+      <!-- our gallery -->
+      <section class="gallery pt-[120px] relative">
+        <div class="absolute top-1/2 -translate-y-1/2 right-0 max-w-[14%] -z-[1] lg:inline-block">
+          <img src="./dist/images/tree-illustration.png" alt="leaf">
+        </div>
+        <div class="absolute top-[5%] left-[1%] max-w-[9%]">
+          <img src="./dist/images/bird-illustration.png" alt="">
+        </div>
+        <div class="container mx-auto">
+          <div class="heading text-center pb-[60px]">
+            <h5 class="text-2xl font-cursive text-color-primary">Our Gallery</h5>
+            <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">Our Image Gallery
+            </h2>
+          </div>
+          <div class="grid-wrapper">
+            <a href="./dist/img/g1.webp" class="row" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g1.webp" alt="img" />
+              </div>
+            </a>
+            <a href="./dist/img/g2.webp" class="column" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g2.webp" alt="img" />
+              </div>
+            </a>
+            <a href="./dist/img/g3.webp" class="column" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g3.webp" alt="img" />
+              </div>
+            </a>
+            <a href="./dist/img/g4.webp" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g4.webp" alt="img">
+              </div>
+            </a>
+            <a href="./dist/img/g5.webp" class="row" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g5.webp" alt="img">
+              </div>
+            </a>
+            <a href="./dist/img/g6.webp" class="" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g6.webp" alt="img">
+              </div>
+            </a>
+            <a href="./dist/img/g7.webp" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g7.webp" alt="img">
+              </div>
+            </a>
+            <a href="./dist/img/g9.webp" data-fancybox="gallery" data-caption="">
+              <div>
+                <img src="./dist/img/g9.webp" alt="img" />>
+              </div>
+            </a>
+          </div>
+          <div class="w-full flex justify-center">
+            <div
+              class="btn bg-color-primary py-4 px-10 hover:bg-[#d0aa6c] transition-all duration-300 mt-14 inline-block">
+              <a href="#" class="text-white flex items-center justify-center">
+                Load More
+                <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                    stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog & news -->
+      <section class="blog pt-[120px]">
+        <%- include('./common/news.ejs')%>
+      </section>
+    </main>
+    <%- include('./common/footer.ejs')%>
+
+      <script src="./dist/js/jquery-3.7.1.min.js"></script>
+      <script src="./dist/js/fancybox.umd.js"></script>
+      <script>
+        Fancybox.bind("[data-fancybox]", {});
+      </script>
+
+      </body>
+
+      </html>

@@ -1,0 +1,310 @@
+<%- include('./common/head.ejs')%>
+    <%- include('./common/header.ejs')%>
+
+        <main>
+            <!-- breadcrumb -->
+            <section
+                class="breadcrumb z-20 relative py-36 after:content-[''] after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-50 after:-z-20"
+                style="background-image: url(./dist/images/breadcrumb-bg.webp);">
+                <img src="" alt="">
+                <img src="./dist/images/breadcrunb__shape.png" alt="placeholder"
+                    class="absolute bottom-0 left-0 lg:w-[12.5%] w-[20%] z-[1px]">
+                <img src="./dist/images/bird-illustration-w.png" alt="placeholder"
+                    class="absolute top-[10%] right-[4%] z-1 w-[7.5%]">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="flex text-2xl font-cursive">
+                            <li class="pr-2">
+                                <a href="index.html" class="text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-[#ffffffb3] px-3 text-2xl">About Us</a>
+                            </li>
+                        </ol>
+                    </nav>
+                    <h2 class="text-white text-[54px] mt-2 font-medium font-serif">A Better Way of Traveling
+                    </h2>
+                </div>
+            </section>
+            <!-- about -->
+            <section class="pt-[120px] relative">
+                <div class="absolute top-1/2 -translate-y-1/2 right-0 max-w-[14%] -z-[1] lg:inline-block">
+                    <img src="./dist/images/tree-illustration.png" alt="leaf">
+                </div>
+                <div class="absolute top-[5%] left-[1%] max-w-[9%]">
+                    <img src="./dist/images/bird-illustration.png" alt="">
+                </div>
+                <div class="container mx-auto flex ">
+                    <div class="h-1/2 mt-16 none">
+                        <img src="./dist/img/about1-1.webp" alt="img">
+                    </div>
+                    <div class="p-10 h-1/2">
+                        <div class="heading pb-12">
+                            <h5 class="text-2xl font-cursive text-color-primary">About Us</h5>
+                            <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">We are Professional
+                                Planners For your Vacations
+                            </h2>
+                        </div>
+                        <div class="flex">
+                            <p class="mt-8 ml-24 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                sed do
+                                eiusmod<br>
+                                tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>
+                                veniam</p>
+                        </div>
+                        <p class="mt-5 ml-24 font-bold text-xl text-white"> Speak to our Destination Experts at Direct
+                            Call
+                            +1 546 378
+                            654</p>
+                        <div class="mt-20 text-white">
+                            <p class="text-lg mt-9 flex items-center">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                All placges and activiates are carefully picked by us.
+                            </p>
+                            <p class="text-lg mt-2 flex items-center">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                We are an award winning agency
+                            </p>
+                            <p class="text-lg mt-2 flex items-center">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                Trusted by more than 80,000 customer
+                            </p>
+                            <div
+                                class="btn bg-color-primary py-4 px-10 hover:bg-[#d0aa6c] transition-all duration-300 mt-14 inline-block">
+                                <a href="#" class="text-white flex items-center justify-center">
+                                    Find Out More
+                                    <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- featured packages -->
+            <section class="pt-28">
+                <div class="heading text-center pb-[60px]">
+                    <h5 class="text-2xl font-cursive text-color-primary">Featured Packages</h5>
+                    <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">Browse Our Featured Packages
+                    </h2>
+                </div>
+                <div class="container mx-auto ">
+                    <div class="flex items-center">
+                        <div class="w-6/12">
+                            <p class="text-xl text-color-primary mb-5">Starting at $1,200</p>
+                            <h1 class="text-[30px] text-white font-serif">Summer homecoming X MEXICO</h1>
+                            <h2 class="text-xl text-white font-normal my-8">Join us as we explore afro-latino culture
+                                and celebrate Colombia’s Independence Weekend!</h2>
+                            <h6 class="text-sm text-white">Duis id interdum ex, eu accumsan massa. Fusce vel nibh diam.
+                                Nulla
+                                ultrices ex at erat
+                                pharetra, vitae viverra mauris condimentum. Sed ullamcorper dignissim enim, vel egestas
+                                lacus tincidunt ac.</h6>
+                            <p class="text-lg mt-9 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                Professional Tour Guide
+                            </p>
+                            <p class="text-lg mt-2 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                We are an award winning agency
+                            </p>
+                            <p class="text-lg mt-2 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                Trusted by more than 80,000 customer
+                            </p>
+                            <div
+                                class="btn bg-color-primary py-4 px-10 hover:bg-[#d0aa6c] transition-all duration-300 mt-14 inline-block">
+                                <a href="#" class="text-white flex items-center justify-center">
+                                    Book Now
+                                    <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-6/12">
+                            <img src="./dist/img/fp1-1.webp" alt="img" style="width: 900px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="container mx-auto pt-20">
+                    <div class="flex items-center">
+                        <div class="w-6/12">
+                            <img src="./dist/img/fp1-2.webp" alt="img" style="width: 900px;">
+                        </div>
+                        <div class="w-6/12 ml-12">
+                            <p class="text-xl text-color-primary mb-5">Starting at $1,200</p>
+                            <h1 class="text-[30px] text-white font-serif">Summer homecoming X MEXICO</h1>
+                            <h2 class="text-xl text-white font-normal my-8">Join us as we explore afro-latino culture
+                                and celebrate Colombia’s Independence Weekend!</h2>
+                            <h6 class="text-sm text-white">Duis id interdum ex, eu accumsan massa. Fusce vel nibh diam.
+                                Nulla
+                                ultrices ex at erat
+                                pharetra, vitae viverra mauris condimentum. Sed ullamcorper dignissim enim, vel egestas
+                                lacus tincidunt ac.</h6>
+                            <p class="text-lg mt-9 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                Professional Tour Guide
+                            </p>
+                            <p class="text-lg mt-2 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                We are an award winning agency
+                            </p>
+                            <p class="text-lg mt-2 flex items-center text-white">
+                                <i class="fa-regular fa-circle-check text-color-primary mr-2"></i>
+                                Trusted by more than 80,000 customer
+                            </p>
+                            <div
+                                class="btn bg-color-primary py-4 px-10 hover:bg-[#d0aa6c] transition-all duration-300 mt-14 inline-block">
+                                <a href="#" class="text-white flex items-center justify-center">
+                                    Book Now
+                                    <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.42505 16.5999L12.8584 11.1666C13.5 10.5249 13.5 9.4749 12.8584 8.83324L7.42505 3.3999"
+                                            stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- featured packages -->
+            <section class="testimonial pt-[120px]">
+                <div class="container mx-auto">
+                    <div class="heading text-center pb-[60px]">
+                        <h5 class="text-2xl font-cursive text-color-primary">Testimonial</h5>
+                        <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">What Our Travelers
+                            Say
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-[25px] text-white font-serif text-center italic">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, ipsam quis ad ab<br>
+                            iste blanditiis doloribus facilis temporibus asperiores sint amet consectetur<br>
+                            adipisicing elit. Adipisci.
+                        </p>
+                    </div>
+            </section>
+            <!-- top guids -->
+            <section class="top-guids pt-[120px]">
+                <div class="heading text-center pb-[60px]">
+                    <h5 class="text-2xl font-cursive text-color-primary">Tour Guides</h5>
+                    <h2 class="text-[35px] font-serif font-semibold mt-[10px] text-white">Meet Our Excellent Guide’s
+                    </h2>
+                </div>
+                <div class="container flex justify-between">
+                    <div class="flex justify-center items-center ">
+                        <div class="bg-white shadow-slate-800 shadow-custom-1 p-6 group ml-14"
+                            style=" box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
+                            <div class="overflow-hidden">
+                                <img src="./dist/img/guide-1.webp" alt="guide"
+                                    class="group-hover:scale-105 duration-300">
+                            </div>
+                            <div class="mt-5">
+                                <h4 class="font-bold leading-[1.35] text-2xl font-serif">Leslie
+                                    Alexander</h4>
+                                <p class="text-[#5b5b5b] text-[18px] font-medium mt-1">Tour Guide</p>
+                            </div>
+                        </div>
+                        <div class="bg-white shadow-slate-800 shadow-custom-1 p-6 group "
+                            style="margin: 0 30px; box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) ;">
+                            <div class="overflow-hidden">
+                                <img src="./dist/img/guide-2.webp" alt="guide"
+                                    class="group-hover:scale-105 duration-300">
+                            </div>
+                            <div class="mt-5">
+                                <h4 class="font-bold leading-[1.35] text-2xl font-serif">Ralph Edwards</h4>
+                                <p class="text-[#5b5b5b] text-[18px] font-medium mt-1">Tour Guide</p>
+                            </div>
+                        </div>
+                        <div class="bg-white shadow-slate-800 shadow-custom-1 p-6 group"
+                            style=" box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);">
+                            <div class="overflow-hidden">
+                                <img src="./dist/img/guide-3.webp" alt="guide"
+                                    class="group-hover:scale-105 duration-300">
+                            </div>
+                            <div class="mt-5">
+                                <h4 class="font-bold leading-[1.35] text-2xl font-serif">Ralph Edwards</h4>
+                                <p class="text-[#5b5b5b] text-[18px] font-medium mt-1">Tour Guide</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- blog & news -->
+            <section class="blog pt-[120px]">
+                <%- include('./common/news.ejs')%>
+            </section>
+        </main>
+        <%- include('./common/footer.ejs')%>
+            <!-- jquery -->
+            <script src="dist/js/jquery-3.7.1.min.js"></script>
+            <script src="dist/js/script.js"></script>
+            <!-- fancybox js -->
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+            <!-- swiper js -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+            <script>
+                var swiper = new Swiper(".mySwiper1", {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                    freeMode: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+            <script>
+                var swiper = new Swiper(".mySwiper2", {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    freeMode: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+            </body>
+
+            </html>
